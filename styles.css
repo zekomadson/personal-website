@@ -1,7 +1,27 @@
 * {
-    color:rgb(241,246,245); 
-    background-color: rgb(71,33,131);
+    color: rgb(71,33,131);
+    background-color:rgb(241,246,245); 
     border: .2px solid white;
     box-sizing: border-box;
 }
+header {
+    text-align: center;
+    margin:0px;
+}
 
+ul {
+    list-style-type: none;
+}
+
+.horizontal-navbar{
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.horizontal-navbar li a{
+    display: inline-block;
+    width: 50px;
+
+}
