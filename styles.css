@@ -1,3 +1,12 @@
+:root{
+    --red: E63946;
+    --white: F1FAEE;
+    --light_blue: A8DADC;
+    --blue: 457B9D;
+    --dark_blue: 1D3557;
+}
+
+
 * {
     color: rgb(71,33,131);
     background-color:rgb(241,246,245); 
