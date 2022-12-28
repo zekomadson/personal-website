@@ -22,25 +22,16 @@ ul {
     list-style-type: none;
 }
 
-.navbar {
+.main-nav {
     display:flex;
 }
 
-.navbar-item{
-    padding: 10px; 
-    flex: 1;
+.main-nav > ul{
+    display:flex;
 }
 
-.role {
-
-}
-
-.project{
-
-}
-
-.link{
-    
+.hidden {
+    display: none;
 }
 
 .solid-black-border{
@@ -48,3 +39,25 @@ ul {
     margin: 5px;
     padding: 5px;
 }
+
+.navbar-item{
+    text-align: center;
+    font-weight: bold;
+}
+
+.title{
+    font-weight: bold;
+}
+
+.detail-toggle{
+    /*
+    The purpose of this class is for it to either display or hide the contents contained in the <p> element directly beneath.
+    */ 
+}
+
+.link{
+    /*
+    The purpose of this class is to handle the formatting of links within the website.
+    */
+}
+
