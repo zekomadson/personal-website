@@ -41,8 +41,11 @@ ul {
 }
 
 .navbar-item{
-    text-align: center;
     font-weight: bold;
+}
+
+.navbar-item-title {
+    text-align: left;
 }
 
 .title{
