@@ -26,8 +26,8 @@ ul {
     display:flex;
 }
 
-.main-nav > ul{
-    display:flex;
+.sub-nav{
+    flex: 1;
 }
 
 .hidden {
@@ -44,8 +44,8 @@ ul {
     font-weight: bold;
 }
 
-.navbar-item-title {
-    text-align: left;
+.navbar-item{
+    text-align: center;
 }
 
 .title{
