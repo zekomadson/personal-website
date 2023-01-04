@@ -52,6 +52,12 @@ ul {
     font-weight: bold;
 }
 
+.solid-purple-border{
+    border: 5px solid rgb(71,33,131);
+    margin: 5px;
+    padding: 2px;
+}
+
 .detail-toggle{
     /*
     The purpose of this class is for it to either display or hide the contents contained in the <p> element directly beneath.
