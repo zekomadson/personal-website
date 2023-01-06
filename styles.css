@@ -13,6 +13,24 @@
     border: .2px solid white;
     box-sizing: border-box;
 }
+
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.vertical-section{
+    flex: 1;
+    flex-direction: column;
+}
+
+nav{
+    display:flex;
+    list-style-type:none;
+    justify-content:flex-end;
+}
+
 header {
     text-align: center;
     margin:0px;
@@ -21,11 +39,6 @@ header {
 ul {
     list-style-type: none;
 }
-
-.main-nav {
-    display:flex;
-}
-
 .sub-nav{
     flex: 1;
 }
@@ -56,17 +69,5 @@ ul {
     border: 5px solid rgb(71,33,131);
     margin: 5px;
     padding: 2px;
-}
-
-.detail-toggle{
-    /*
-    The purpose of this class is for it to either display or hide the contents contained in the <p> element directly beneath.
-    */ 
-}
-
-.link{
-    /*
-    The purpose of this class is to handle the formatting of links within the website.
-    */
 }
 
