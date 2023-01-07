@@ -81,4 +81,8 @@ header {
     font-weight: bold;
 }
 
-
+img{
+    height:25%;
+    width: 25%;
+    border-radius: 50%;
+}
