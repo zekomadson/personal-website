@@ -86,3 +86,7 @@ img{
     width: 25%;
     border-radius: 50%;
 }
+
+.black-border{
+    border: 2px solid black;
+}
