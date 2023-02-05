@@ -53,6 +53,7 @@ nav{
 
 .navbar-item{
     font-weight: bold;
+    flex: 1;
     border: 2px solid rgb(241,246,245);
     padding: 10px;
     margin: 5px;
