@@ -32,7 +32,16 @@
 }
 .white-border{
     border: 2px solid white;
+    border-radius: 20px;
 }
+.dark-purple-font{
+    color:#6320EE;
+}
+.dark-purple-border{
+    border: 2px solid #8075FF;
+    border-radius: 20px;
+}
+
 
 nav{
     display: flex;
@@ -47,8 +56,15 @@ nav a{
     align-items: center;
     text-align: center;
     height: 80%;
-    margin: 20px 10px;
+    margin: 20px 5px;
     padding: 20px;
+}
+
+nav a:hover{
+    background: white;
+    color: #6320EE;
+    border-color: #6320EE;
+    transition: .2s linear;
 }
 
 .centered-text{
