@@ -1,9 +1,15 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    color: #6320EE;
+}
+
 * {
     border: solid 2px white;
     padding: 5px;
     margin: 5px;
-    color: white;
-    font-family: "Times New Roman", Times, serif;
+    
 }
 
 .dark-purple-background{
@@ -14,14 +20,6 @@
 }
 .white-border{
     border: 2px solid white;
-}
-
-* {
-    border: solid 2px white;
-    padding: 5px;
-    margin: 5px;
-    color: white;
-    font-family: "Times New Roman", Times, serif;
 }
 
 .dark-purple-background{
@@ -70,4 +68,13 @@ nav a:hover{
 .centered-text{
     text-align: center;
 }
+
+.spaced-lettering{
+    letter-spacing: 0.1em;
+}
+
+.hidden{
+    display: none;
+}
+
 
