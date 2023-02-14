@@ -22,9 +22,6 @@ html {
     border: 2px solid white;
 }
 
-.dark-purple-background{
-    background-color: #6320EE;
-}
 .white-font{
     color:white;
 }
@@ -77,6 +74,7 @@ nav a:hover{
     display: none;
 }
 
-.expand-button{
-    text-align: center;
+.press{
+    margin: 0px;
+    padding: 0px;
 }
