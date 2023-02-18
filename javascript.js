@@ -1,14 +1,31 @@
+/*
 
-const toggles = document.querySelectorAll(".toggle-button");
-var nextDiv = toggles.nextElementSibling;
-var toggleSigns = nextDiv.querySelectorAll("h2");
-toggles.addEventListener("click", function(){
-    for (var i = 0; i < toggleSigns.length; i++){
-        if (toggleSigns[i].style.display === "none") {
-            toggleSigns[i].style.display = "flex";
-          } else {
-            toggleSigns[i].style.display = "none";
-          }
-        }
-    });
+
+  <h2 id="toggleBtn" >Click me</h2>
+  <div id="myDiv">
+    <p>This content will be toggled</p>
+  </div>
+
+
+#myDiv{
+      display: none;
+    }
+.toggle-content{
+  display: none;
+}
+* {
+  border: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+}
+
+
+
+*/
+
+const toggleBtn = document.querySelector('#toggleBtn');
+const myDiv = toggleBtn.nextElementSibling;
+toggleBtn.addEventListener('click', () => {
+  myDiv.style.display = myDiv.style.display === 'none' ? 'block' : 'none';
+});
 
