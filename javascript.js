@@ -26,6 +26,6 @@
 const toggleBtn = document.querySelector('#toggleBtn');
 const myDiv = toggleBtn.nextElementSibling;
 toggleBtn.addEventListener('click', () => {
-  myDiv.style.display = myDiv.style.display === 'none' ? 'block' : 'none';
+  myDiv.style.display = myDiv.style.display === 'none' ? 'flex' : 'none';
 });
 
