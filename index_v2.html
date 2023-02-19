@@ -4,7 +4,11 @@
         <meta charset="utf-8">
         <title>Zeko's Website_v2</title>
         <link rel="stylesheet" href="styles_v2.css">
-        <script src="javascript.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous">
+        </script>
     </head>
     <body>
         <nav>
@@ -21,47 +25,50 @@
             <div class = "dark-purple-border" id="Professional">
                 <div>
                     <h2 class="dark-purple-border">Professional Experience</h2>
-                    <div class="dark-purple-border toggle-button">
-                        <h2 class="centered-text press">Expand, Press Me!</h2>
-                        <h2 class="centered-text press hidden">Collapse, Press Me!</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button ">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <p>Job 1 title placeholder</p>
+                            <p>Job 1 details placeholder</p>
+                            <p>Job 2 title placeholder</p>
+                            <p>Job 2 details placeholder</p>
+                        </div>
                     </div>
-                </div>
-                
-                <div class="section-details hidden">
-                    <p>Job 1 title placeholder</p>
-                    <p>Job 1 details placeholder</p>
-                    <p>Job 2 title placeholder</p>
-                    <p>Job 2 details placeholder</p>
-                </div>
+                </div>    
             </div>
             <div class = "dark-purple-border" id="Projects">
                 <div class="dark-purple-border">
                     <h2 class="dark-purple-border">Side Projects</h2>
-                    <div class="dark-purple-border toggle-button">
-                        <h2 class="centered-text press">Expand, Press Me!</h2>
-                        <h2 class="centered-text press hidden">Collapse, Press Me!</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <p>Personal Project 1 - Personal Website: Placeholder</p>
+                            <p>Project Description Placeholder</p>
+                            <p>Personal Project 2 - Pokemon Converter: Placeholder</p>
+                            <p>Project Description Placeholder</p>
+                        </div>
                     </div>
                 </div>
-                <div class="section-details hidden">
-                    <p>Personal Project 1 - Personal Website: Placeholder</p>
-                    <p>Project Description Placeholder</p>
-                    <p>Personal Project 2 - Pokemon Converter: Placeholder</p>
-                    <p>Project Description Placeholder</p>
-                </div>
+                
             </div>
             <div class = "dark-purple-border" id="Links">
                 <div>
                     <h2 class="dark-purple-border">Links</h2>
-                    <div class="dark-purple-border toggle-button">
-                        <h2 class="centered-text press">Expand, Press Me!</h2>
-                        <h2 class="centered-text press hidden">Collapse, Press Me!</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <p>Github Link Placeholder</p>
+                            <p>LinkedIn Link Placeholder</p>
+                            <p>JS Fiddle Link Placeholder</p>
+                        </div>
                     </div>
                 </div>
-                <div class="section-details hidden">
-                    <p>Github Link Placeholder</p>
-                    <p>LinkedIn Link Placeholder</p>
-                </div>
             </div>
+            <script>
+                $(".toggle-button").click(function(){
+                    $(this).next("div").toggleClass("hide-content");
+                });
+            </script>
         </section>
     </body>
 </html>

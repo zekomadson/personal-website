@@ -70,11 +70,6 @@ nav a:hover{
     letter-spacing: 0.1em;
 }
 
-.hidden{
+.hide-content{
     display: none;
-}
-
-.press{
-    margin: 0px;
-    padding: 0px;
-}
+  }
