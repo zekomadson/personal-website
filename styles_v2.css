@@ -73,3 +73,8 @@ nav a:hover{
 .hide-content{
     display: none;
   }
+
+.toggle-button{
+    margin: 0px;
+    padding: 0px;
+}
