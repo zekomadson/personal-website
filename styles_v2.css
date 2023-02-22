@@ -37,6 +37,12 @@ html {
     border-radius: 20px;
 }
 
+.vertical-flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
 
 nav{
     display: flex;
@@ -75,6 +81,14 @@ nav a:hover{
   }
 
 .toggle-button{
-    margin: 0px;
+    margin:0px;
     padding: 0px;
+}
+
+.portrait{
+    border-radius: 50%;
+    max-width: 4000px;
+    max-height: 400px;
+    justify-content: center;
+    align-items: center;
 }
