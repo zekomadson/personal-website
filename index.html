@@ -2,34 +2,109 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Zeko's Website</title>
-        <link rel="stylesheet" href="styles.css">
-        <script src="javascript.js"></script>
+        <title>Zeko's Website_v2</title>
+        <link rel="stylesheet" href="styles_v2.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous">
+        </script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
     </head>
     <body>
-        <section class="container">
-            <div class="container black-background">
-                <nav class="navbar">
-                    <a class="navbar-item title white-font" href="">Home</a> 
-                    <a class="navbar-item title white-font" href="/pages/about.html">About</a> 
-                    <a class="navbar-item title white-font" href="/pages/professional.html">Professional Experience</a> 
-                    <a class="navbar-item title white-font" href="/pages/projects.html">Projects</a>
-                </nav>   
-                <div class="container">
-                    <h1 class="header white-font">Zach Madson</h1>
-                    <img src="images/portrait.JPG" alt="portrait of Zach Madson"> 
-                    <h4 class="white-font">Brooklyn based BI Developer and Data Analyst</h4>
-                    <h4>Aspiring Web Developer & Software Engineer .</h4>
-                </div>  
-            </div>  
-            <div class="container white-background">
-                <h2 class= "black-font">Contact Information</h2>
+        <nav>
+            <a class="white-border white-font dark-purple-background" href="#Home">Home</a>
+            <a class="white-border white-font dark-purple-background" href="#Professional">Professional Experience</a>
+            <a class="white-border white-font dark-purple-background" href="#Projects">Projects</a>
+        </nav> 
+        <section>
+            <div id="Home" class="vertical-flex-box">
+                <h2 id="nameplate" class="centered-text dark-purple-font dark-purple-border spaced-lettering">Zeko Madson</h2>
+                <img class="portrait" src="images/portrait.jpg" alt="Portrait">
+                <p class="centered-text dark-purple-font dark-purple-border spaced-lettering">Data Analyst - BI Developer - Aspiring Software Engineer</p>
+            </div>
+            <div class = "dark-purple-border" id="Professional">
                 <div>
-                    <a class= "black-font black-border" href="https://github.com/zekomadson">Github</a>
-                    <a class= "black-font black-border" href="https://www.linkedin.com/in/zmadson/">LinkedIn</a>
-                    <a class= "black-font black-border" href="#">Resume</a>
+                    <h2 class="dark-purple-border">Professional Experience</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button ">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">Reporting Analyst 4 - AMN Healthcare</h3>
+                                <div class="hide-content">
+                                    <p>Job Details</p>
+                                </div>
+                            </div>
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">Business Reporting Analyst - Baker Tilly</h3>
+                                <div class="hide-content">
+                                    <p>Job Details</p>
+                                </div>
+                            </div>
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">IT Analyst - Ecolab</h3>
+                                <div class="hide-content">
+                                    <p>Job Details</p>
+                                </div>
+                            </div>
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">IT Intern - Ecolab</h3>
+                                <div class="hide-content">
+                                    <p>Job Details</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <div class = "dark-purple-border" id="Projects">
+                <div class="dark-purple-border">
+                    <h2 class="dark-purple-border">Side Projects</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">Pokemon Comparison</h3>
+                                <div class="hide-content">
+                                    <p>The Pokemon Comparison application was a simple python project to develop my python / data programming skills while building an application that I myself would find fun to use.
+                                        It's an application that allows the user to select a character from Fifa (men and women) or Pokemon and it will generate a comparison to characters in the other along with a brief description as to how it made.</p>
+                                    <p>Tech Stack: Python, Pandas</p>
+                                </div>
+                            </div>
+                            <div class="dark-purple-border">
+                                <h3 class="toggle-button">Personal Website</h3>
+                                <div class="hide-content">
+                                    <p>The Personal Website project was a means for me to develop my front end development knowledge. I've been interested in web development for many years and 
+                                        this was a perfect first project.
+                                    </p>
+                                    <p>Tech Stack: HTML, CSS, JavaScript, jQuery</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>    
+            </div>
+            <div class = "dark-purple-border" id="Links">
+                <div>
+                    <h2 class="dark-purple-border">Links</h2>
+                    <div class="dark-purple-border">
+                        <h2 class="centered-text toggle-button">Toggle Display!</h2>
+                        <div class="section-details hide-content">
+                            <a href="https://github.com/zekomadson">GitHub profile</a>
+                            <a href="https://www.linkedin.com/in/zmadson/">LinkedIn Profile</a>
+                            <a href="https://jsfiddle.net/user/zekomadson/fiddles/">JSFiddle profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                $(".toggle-button").click(function(){
+                    $(this).next("div").toggleClass("hide-content");
+                });
+            </script>
         </section>
     </body>
 </html>

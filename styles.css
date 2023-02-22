@@ -1,79 +1,94 @@
-
+html {
+    font-family: 'Gloock', serif;
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    color: #6320EE;
+}
 
 * {
-    color: rgb(241,246,245); 
+    border: solid 2px white;
+    padding: 5px;
+    margin: 5px;
+    
 }
 
-.purple-background{
-    background-color: #58287F;
-}
-
-.black-background{
-    background-color: #1A0000;
-}
-
-.blue-background{
-    background-color: #89C4E1;
-}
-
-.white-background {
-    background-color: #F5EDCE;
+.dark-purple-background{
+    background-color: #6320EE;
 }
 .white-font{
-    color: rgb(241,246,245); 
+    color:white;
 }
-.black-font{
-    color: #1A0000;
+.white-border{
+    border: 2px solid white;
 }
 
-.container{
+.white-font{
+    color:white;
+}
+.white-border{
+    border: 2px solid white;
+    border-radius: 20px;
+}
+.dark-purple-font{
+    color:#6320EE;
+}
+.dark-purple-border{
+    border: 2px solid #8075FF;
+    border-radius: 20px;
+}
+
+.vertical-flex-box{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    flex: 1;
 }
 
-
-.navbar {
+nav{
     display: flex;
-    list-style-type:none;
-    flex: 1;
-  }
+    align-items: center; 
+}
 
-
-.navbar-item{
-    font-weight: bold;
+nav a{
     flex: 1;
-    border: 2px solid rgb(241,246,245);
+    text-decoration: none;
     padding: 10px;
-    margin: 5px;
-    text-align: center;
     justify-content: center;
     align-items: center;
-
+    text-align: center;
+    height: 80%;
+    margin: 20px 5px;
+    padding: 20px;
 }
 
-.hidden {
+nav a:hover{
+    background: white;
+    color: #6320EE;
+    border-color: #6320EE;
+    transition: .2s linear;
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.spaced-lettering{
+    letter-spacing: 0.1em;
+}
+
+.hide-content{
     display: none;
+  }
+
+.toggle-button{
+    margin:0px;
+    padding: 0px;
 }
 
-.solid-black-border{
-    border: 5px solid black;
-    margin: 5px;
-    padding: 5px;
-}
-
-.title{
-    font-weight: bold;
-}
-
-img{
-    height:25%;
-    width: 25%;
+.portrait{
     border-radius: 50%;
-}
-
-.black-border{
-    border: 2px solid black;
+    max-width: 4000px;
+    max-height: 400px;
+    justify-content: center;
+    align-items: center;
 }
