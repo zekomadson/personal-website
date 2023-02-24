@@ -1,5 +1,3 @@
-import 'boxicons'
-
 
 $(document).ready(function(){
     $(".toggle-button").click(function(){
