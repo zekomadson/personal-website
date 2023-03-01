@@ -10,3 +10,17 @@ html{
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
 }
+
+.columnFlex{
+    display: flex;
+    flex-direction: column;
+}
+
+.subFlex{
+    flex:1;
+
+}
+
+.centerText{
+    text-align: center;
+}
