@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pomodoro Study Web App</title>
-    <link rel="stylesheet" href="styles.css">
-    <script
-        src="https://code.jquery.com/jquery-3.6.3.min.js"
-        integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
-        crossorigin="anonymous">
-    </script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
-</head>
-<body class="columnFlex">
-    <div class="subFlex">
-        <h2 class="centerText">Pomodoro Web App</h2>
-        <h6 class="centerText">By Zeko</h6>
-    </div>
-    <div class="subFlex columnFlex">
-        <label for="study-input">Enter a study duration:</label>
-        <input type="number" id="study-input" name="num-input" min="0" max="120" step="1">
-        <label for="relax-input">Enter a relax duration:</label>
-        <input type="number" id="relax-input" name="num-input" min="0" max="120" step="1">
-    </div>
-    <button>Begin!</button>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pomodoro Study Web App</title>
+        <link rel="stylesheet" href="styles.css">
+        <script
+            src="https://code.jquery.com/jquery-3.6.3.min.js"
+            integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+            crossorigin="anonymous">
+        </script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
+    </head>
+    <body class="columnFlex">
+        <div class="subFlex">
+            <h2 class="centerText">Pomodoro Web App</h2>
+            <h6 class="centerText">By Zeko</h6>
+        </div>
+        <div class="subFlex columnFlex">
+            <label for="study-input">Enter a study duration:</label>
+            <input type="number" id="study-input" name="num-input" min="0" max="120" step="1">
+            <label for="relax-input">Enter a relax duration:</label>
+            <input type="number" id="relax-input" name="num-input" min="0" max="120" step="1">
+        </div>
+        <button id="start-btn">Start Countdown</button>
+        <p id="countdown"></p>
+    </body>
+    <script src="script.js"></script>
 </html>
