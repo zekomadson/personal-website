@@ -16,27 +16,18 @@ html{
     -webkit-text-size-adjust:100%;
 }
 
-nav, .main{
+ .main{
     background-color: var(--main-middle-color);
 }
 
-nav a{
-    border: 2px solid var(--main-light-color);
-}
-
-.columnFlex{
+.flexbox-container{
     display: flex;
-    flex-direction: column;
+    flex-direction:column ;
+    justify-content: center;
 }
 
-.rowFlex{
-    display: flex;
-    flex-direction: row;
-}
-
-.subFlex{
+.flexbox-item{
     flex:1;
-
 }
 
 .centerText{
