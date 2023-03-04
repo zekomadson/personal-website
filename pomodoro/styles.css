@@ -30,6 +30,18 @@ html{
     flex:1;
 }
 
-.centerText{
+.center-text{
     text-align: center;
+}
+
+.light-border{
+    border: 2px solid var(--main-light-color);
+}
+
+#task{
+    background-color: rgba(255, 255, 255, .3);
+}
+
+#task-div{
+    border-top: 5px solid var(--main-light-color);;
 }

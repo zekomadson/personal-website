@@ -19,16 +19,21 @@
     <body class="flexbox-container">
         <div class="main flexbox-item flexbox-container">
             <div class="flexbox-item">
-                <h2 class="centerText">Pomodoro Study</h2>
+                <h2 class="center-text">Pomodoro Study</h2>
             </div>
             <div class="flexbox-item flexbox-container">
-                <label for="study-input" class="centerText">Enter Study Duration (minutes):</label>
+                <label for="study-input" class="center-text">Enter Study Duration (minutes):</label>
                 <input type="number" id="study-input" name="num-input" min="0" max="120" step="1">
-                <label for="break-input" class="centerText">Enter Break Duration (minutes):</label>
+                <label for="break-input" class="center-text">Enter Break Duration (minutes):</label>
                 <input type="number" id="break-input" name="num-input" min="0" max="20" step="1">
             </div>
             <div class="clock flexbox-item flexbox-container">
                 <button id="start-btn" class="flexbox-item">Start Clock</button>
+            </div>
+            <div id="task-div" class="flexbox-container flexbox-item">
+                <div id="task" class="flexbox-container flexbox-item light-border">
+                    <h2 class="center-text">Add Tasks +</h2>
+                </div>
             </div>
         </div>
     </body>
