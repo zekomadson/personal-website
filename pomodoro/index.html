@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="light-blue-background">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,23 +17,26 @@
         <link href="https://fonts.googleapis.com/css2?family=Gloock&display=swap" rel="stylesheet">
     </head>
     <body class="columnFlex">
-        <nav class="rowFlex">
+        <nav class="rowFlex light-pink-background">
             <a class="subFlex centerText">Home</a>
             <a class="subFlex centerText">Login</a>
-            <a class="subFlex centerTex">Sign-Up</a>
+            <a class="subFlex centerText">Sign-Up</a>
         </nav>
-        <div class="subFlex">
-            <h2 class="centerText">Pomodoro Web App</h2>
-            <h6 class="centerText">By Zeko</h6>
+        <div class="light-pink-background">
+            <div >
+                <h2 class="centerText">Pomodoro Web App</h2>
+                <h4 class="centerText">By Zeko</h4>
+                </div>
+                <div class="subFlex columnFlex">
+                    <label for="study-input">Enter a study duration:</label>
+                    <input type="number" id="study-input" name="num-input" min="0" max="120" step="1">
+                </div>
+                <div class="clock columnFlex">
+                    <button id="start-btn" class="subFlex">Start Clock</button>
+                </div>
+            </div>
+            <div class="subFlex">
         </div>
-        <div class="subFlex columnFlex">
-            <label for="study-input">Enter a study duration:</label>
-            <input type="number" id="study-input" name="num-input" min="0" max="120" step="1">
-        </div>
-        <div class="clock columnFlex">
-            <button id="start-btn" class="subFlex">Start Clock</button>
-        </div>
-        
     </body>
     <script src="script.js"></script>
 </html>
