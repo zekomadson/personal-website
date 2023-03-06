@@ -7,5 +7,10 @@ $(document).ready(function(){
             $(this).text('Resume')
         }
         
+    })
+
+    $("#add-task").click(function(){ 
+        $("#task").append("<p>New Task")
     });
+        
 });
