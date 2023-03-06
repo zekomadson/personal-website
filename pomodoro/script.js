@@ -21,3 +21,6 @@ $(document).ready(function(){
 });
         
 });
+
+
+// Next Steps: create an object called a task. has all these elements and attributes and you just add a new task on click.
