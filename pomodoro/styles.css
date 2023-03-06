@@ -26,6 +26,15 @@ html{
     justify-content: center;
 }
 
+.row-flexbox-container{
+    display:flex;
+    flex-direction:row;
+}
+
+.flexbox-item-ra{
+    margin-left: auto;
+  }
+
 .flexbox-item{
     flex:1;
 }

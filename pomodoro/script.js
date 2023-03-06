@@ -10,7 +10,14 @@ $(document).ready(function(){
     })
 
     $("#add-task").click(function(){ 
-        $("#task").append("<p>New Task")
-    });
+        var taskDiv = $("<div></div>"),
+        newTask = $("<h4>New task</h4>"),
+        removeTask = $("<h4>Remove task</h4>")
+        taskDiv.addClass('row-flexbox-container')
+        removeTask.addClass('flexbox-item-ra')
+        taskDiv.append(newTask)
+        taskDiv.append(removeTask)
+        $("#task").append(taskDiv)
+});
         
 });
