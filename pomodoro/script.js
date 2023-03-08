@@ -14,11 +14,15 @@ $(document).ready(function(){
         newTask = $("<h4>New task</h4>"),
         removeTask = $("<h4>Remove task</h4>")
         taskDiv.addClass('row-flexbox-container')
-        removeTask.addClass('flexbox-item-ra')
+        removeTask.addClass('flexbox-item light-border center-text remove')
+        newTask.addClass('flexbox-item light-border center-text')
         taskDiv.append(newTask)
         taskDiv.append(removeTask)
         $("#task").append(taskDiv)
-});
+    });
+
+
+
         
 });
 
