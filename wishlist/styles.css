@@ -55,5 +55,20 @@ ul{
     padding: 10px;
 }
 
+.sub-category{
+    font-size: medium;
+}
+
+.sub-category-item{
+    font-size: small;
+}
+
+.section-header{
+    font-size: x-large;
+}
+
+#title{
+    font-size: xx-large;
+}
 
 

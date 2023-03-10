@@ -21,27 +21,38 @@
     <nav class="horizontal-flex">
         <a href="../desktop.html" class="right-align">Home</a>
     </nav>
-    <h1 class="title centered-text">Wishlist Generator</h1>
+    <p id="title" class="title centered-text">Wishlist Generator</p>
     <div class="vertical-flex">
-        <h2 class="centered-text toggle-btn flex-item">Add new Wishlist item</h2>
+        <p class="centered-text toggle-btn flex-item section-header">Add new Wishlist item</p>
         <div class="toggle-item hidden">
-            <h2 class="toggle-btn flex-item centered-text">Category</h2>
+            <p class="toggle-btn flex-item centered-text sub-category">Category</p>
             <div class="toggle-item hidden">
                 <div class="horizontal-flex">
-                    <h4 class="flex-item category-item centered-text">Restaurant</h4>
-                    <h4 class="flex-item category-item centered-text">Destination</h4>
-                    <h4 class="flex-item category-item centered-text">Decor</h4>
-                    <h4 class="flex-item category-item centered-text">Style / Clothes</h4>
+                    <p class="flex-item category-item centered-text sub-category-item">Restaurant</p>
+                    <p class="flex-item category-item centered-text sub-category-item">Destination</p>
+                    <p class="flex-item category-item centered-text sub-category-item">Decor</p>
+                    <p class="flex-item category-item centered-text sub-category-item">Style / Clothes</p>
                 </div> 
             </div>  
-            <h2 class="toggle-btn flex-item centered-text">Wishlist Item</h2>
+            <p class="toggle-btn flex-item centered-text sub-category">Wishlist Item</p>
             <input class="toggle-item hidden"></input>
-            <h2 class="centered-text toggle-btn flex-item">Price ($)</h2>
+            <p class="centered-text toggle-btn flex-item sub-category">Description</p>
+            <input class="toggle-item hidden"></input>
+            <p class="centered-text toggle-btn flex-item sub-category">Price ($)</p>
             <input class="toggle-item hidden"></input>
         </div>
-        
     </div>
-    
-
+    <div id="wishlist">
+        <p class="section-header toggle-btn centered-text">Functionality Description</p>
+        <div class=" toggle-item hidden">
+            <p class="sub-category">This section will be added to when a new wishlist item is added.</p>
+            <p>Basic Functionality:</p>
+            <ul>
+                <li>Add wishlist item</li>
+                <li>Check if category exists (id of div = category name), if it doesn't add it</li>
+                <li>Split request into 2 columns (name, price) with a paragraph (description underneath)</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
