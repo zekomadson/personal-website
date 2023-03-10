@@ -19,7 +19,7 @@
 nav a {
     color: white;
     margin-left: auto;
-
+    padding: 15px;
     
 }
 
@@ -42,11 +42,6 @@ ul{
     flex-direction: row;
 }
 
-.category-item{
-    margin: 10px;
-    padding: 10px;
-}
-
 .vertical-flex{
     display: flex;
     flex-direction: column;
@@ -55,4 +50,10 @@ ul{
 .flex-item{
     flex:1;
 }
+
+.toggle-btn{
+    padding: 10px;
+}
+
+
 

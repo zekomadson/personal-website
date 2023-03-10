@@ -24,23 +24,20 @@
     <h1 class="title centered-text">Wishlist Generator</h1>
     <div class="vertical-flex">
         <h2 class="centered-text toggle-btn flex-item">Add new wishlist item</h2>
-        <ul class=" toggle-item vertical-flex flex-item">
-            <ul class="category centered-text toggle-btn flex-item">Category
-                <ul class="toggle-item horizontal-flex flex-item">
-                    <li class="flex-item category-item">Restaurant</li>
-                    <li class="flex-item category-item">Destination</li>
-                    <li class="flex-item category-item">Decor</li>
-                    <li class="flex-item category-item">Style / Clothes</li>
-                </ul>
-                
-            </ul>
-            <ul class="centered-text toggle-btn flex-item">Wishlist Item
-                <li class="toggle-item"><input></input></li>
-            </ul>
-            <ul class="centered-text toggle-btn flex-item">Price ($)
-                <li class="toggle-item"><input></input></li>
-            </ul>
-        </ul>
+        <div class="toggle-item hidden">
+            <h2 class="toggle-btn flex-item centered-text">Category</h2>
+            <div class="category centered-text toggle-item flex-item horizontal-flex">
+                <h4 class="flex-item category-item">Restaurant</h4>
+                <h4 class="flex-item category-item">Destination</h4>
+                <h4 class="flex-item category-item">Decor</h4>
+                <h4 class="flex-item category-item">Style / Clothes</h4>
+            </div>  
+            <h2 class="toggle-btn flex-item centered-text">Wishlist Item</h2>
+            <input class="toggle-item"></input>
+            <h2 class="centered-text toggle-btn flex-item">Price ($)</h2>
+            <input class="toggle-item"></input>
+        </div>
+        
     </div>
     
 
