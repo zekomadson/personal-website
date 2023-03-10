@@ -18,16 +18,31 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <nav>
-        <a href="../desktop.html">Home</a>
+    <nav class="horizontal-flex">
+        <a href="../desktop.html" class="right-align">Home</a>
     </nav>
-    <ul>Selections:
-        <li>Category: Girlfriend, Apartment, Style </li>
-        <li>What is it: Input value / Write-in </li>
-        <li>Price (if it applies) -> a button to select if it costs anything or not</li>
-    </ul>
-    <ul>Additional Functionality:
-        <li>Be able to drag and drop based on priority</li>
-    </ul>
+    <h1 class="title centered-text">Wishlist Generator</h1>
+    <div class="vertical-flex">
+        <h2 class="centered-text toggle-btn flex-item">Add new wishlist item</h2>
+        <ul class=" toggle-item vertical-flex flex-item">
+            <ul class="category centered-text toggle-btn flex-item">Category
+                <ul class="toggle-item horizontal-flex flex-item">
+                    <li class="flex-item category-item">Restaurant</li>
+                    <li class="flex-item category-item">Destination</li>
+                    <li class="flex-item category-item">Decor</li>
+                    <li class="flex-item category-item">Style / Clothes</li>
+                </ul>
+                
+            </ul>
+            <ul class="centered-text toggle-btn flex-item">Wishlist Item
+                <li class="toggle-item"><input></input></li>
+            </ul>
+            <ul class="centered-text toggle-btn flex-item">Price ($)
+                <li class="toggle-item"><input></input></li>
+            </ul>
+        </ul>
+    </div>
+    
+
 </body>
 </html>
