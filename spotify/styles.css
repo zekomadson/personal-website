@@ -8,11 +8,11 @@ body{
     border: 2px solid white;
 }
 
-.profile-pic{
+.profile-pic, .listener-profile-pic{
     border-radius: 50%;
 }
 
-.centered{
+.centered, .listener-name {
     text-align: center;
 }
 
@@ -71,4 +71,28 @@ button:hover {
     height: auto;
     margin-left: auto;
 }
- 
+
+.profile-pic-container{
+    display: flex;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+
+  }
+
+  .profile-pic-container img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+
+
+
+
