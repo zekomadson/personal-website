@@ -60,4 +60,15 @@ button:hover {
     width: 50%;
   }
 
+.logo-container{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#logo{
+    max-width: 20%;
+    height: auto;
+    margin-left: auto;
+}
  
