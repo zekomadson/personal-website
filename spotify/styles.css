@@ -12,6 +12,10 @@ body{
     border-radius: 50%;
 }
 
+.centered{
+    text-align: center;
+}
+
 .row-flex{
     display: flex;
     flex-direction: row;
