@@ -20,3 +20,10 @@ with open('profile_pic.jpg', 'wb') as f:
     f.write(response.content)
 
 */ 
+
+const slider = document.querySelector('.slider__input');
+const value = document.querySelector('.slider__value');
+
+slider.addEventListener('input', (event) => {
+  value.textContent = event.target.value;
+});

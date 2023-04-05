@@ -14,11 +14,15 @@
     <div class="column-flex">
         <div class="flex-item row-flex">
             <div class="title column-flex">
-                <h2 id="title" class="centered">Spotfiy Nearby</h2>
+                <h2 id="title" class="centered">Spotfiy Radar</h2>
                 <h4 id="subtitle" class="centered">See who's listening to what!</h4>
             </div>
             <img src="" alt="spotify-logo" id="logo" class="flex-item">
         </div>
+            <div class="slider">
+                <input type="range" min="100" max="500" value="500" step="50" class="slider__input">
+                <p>Radar Radius: <span class="slider__value">500</span></p>
+              </div>
         <div class="row-flex flex-item" id="nearby">
             <div class="listener row-flex flex-item">
                 <img src="" alt="listener-profile-pic" class="flex-item">
