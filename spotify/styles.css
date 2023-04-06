@@ -12,15 +12,15 @@ body {
 
 #title, #slogan{
     text-align: center;
-    margin:1rem;
+    margin: 1rem;
 }
 
 #title{
-    font-size: 10vh;
+    font-size: 10vw;
 }
 
 #slogan{
-    font-size: 5vh;
+    font-size: 5vw;
 }
 
 #header{
