@@ -1,38 +1,28 @@
-
-body{
-    background-color: black;
+body {
+    background-color: #121212;
     font-family: Circular, sans-serif;
-    color: white;
+    color: #FFFFFF;
 }
 
-*{
-    border: 2px solid white;
-}
-
-#title{
-    text-align: center;
-    font-size: 2rem;
-    margin-bottom: 0rem;
-}
-
-#slogan{
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 0rem;
-}
 
 .column-flex{
     display: flex;
     flex-direction: column;
 }
 
-.row-flex{
-    display: flex;
-    flex-direction: row;
+#title, #slogan{
+    text-align: center;
+    margin:1rem;
 }
 
+#title{
+    font-size: 10vh;
+}
 
+#slogan{
+    font-size: 5vh;
+}
 
-
-
-
+#header{
+    background-color: #181818;
+}
