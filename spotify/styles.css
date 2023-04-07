@@ -10,19 +10,29 @@ body {
     flex-direction: column;
 }
 
-#title, #slogan{
-    text-align: center;
-    margin: 1rem;
-}
-
 #title{
-    font-size: 10vw;
+    text-align: center;
+    font-size: 6vw;
+    margin: 0;
 }
 
 #slogan{
-    font-size: 5vw;
+    font-size: 2vw;
+    text-align: center;
+    margin: 1rem 0rem;
 }
 
-#header{
+.off-black-background{
     background-color: #181818;
+}
+
+
+.user{
+    margin: 2rem;
+    padding: 1rem;
+}
+.user img{
+    border-radius: 50%;
+    max-width: 8vw;
+    max-height: 8vh;
 }
