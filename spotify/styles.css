@@ -36,16 +36,24 @@ body {
     padding: 1rem;
     border-radius: 10rem;
     align-items: center;
+    overflow: hidden;
+    max-height: 8vh;
     
 }
-.user img{
+.profile-pic{
     border-radius: 50%;
     max-width: 8vw;
     max-height: 8vh;
 }
 
+.song-pic{
+    max-width: 8vw;
+    max-height: 8vh;
+    margin-left: 8vw;
+}
+
 .user .username{
-    font-size: 2vw;
+    font-size: 3vw;
     padding-left: 1vw;
 }
 
