@@ -26,13 +26,30 @@ body {
     background-color: #181818;
 }
 
+.grey-background{
+    background-color: #535353;
+}
+
 
 .user{
     margin: 2rem;
     padding: 1rem;
+    border-radius: 10rem;
+    align-items: center;
+    
 }
 .user img{
     border-radius: 50%;
     max-width: 8vw;
     max-height: 8vh;
+}
+
+.user .username{
+    font-size: 2vw;
+    padding-left: 1vw;
+}
+
+.row-flex{
+    display: flex;
+    flex-direction: row;
 }
