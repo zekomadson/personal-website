@@ -52,6 +52,13 @@ body {
     margin-left: 8vw;
 }
 
+.song-details{
+    margin-left: 2vw;
+}
+
+.song-details p {
+    font-size: 1vw;
+}
 .user .username{
     font-size: 3vw;
     padding-left: 1vw;
